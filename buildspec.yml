@@ -18,7 +18,6 @@ phases:
   pre_build:
     commands:
       - pip install numpy
-      - pip install -e .
   build:
     commands:
       - python hello_world.py
